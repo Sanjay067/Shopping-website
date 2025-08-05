@@ -1,11 +1,16 @@
+import Announcement from "./Announcement/Announcement"
+import Navbar from "./Navbar/Navbar"
 
-
-import './App.css'
 
 function App() {
 
 
-  return
+  return (
+    <>
+      <Announcement />
+      <Navbar />
+    </>
+  )
 
 }
 
